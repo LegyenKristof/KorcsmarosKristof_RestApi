@@ -4,20 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical"
-    android:gravity="center">
+    tools:context=".ListResultActivity"
+    android:orientation="vertical">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonListazas"
-        android:text="Listázás"/>
+        android:id="@+id/buttonVissza1"
+        android:text="Vissza"/>
 
-    <Button
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonFelvetel"
-        android:text="Új felvétele"/>
+        android:id="@+id/listViewVarosok"/>
 
 </LinearLayout>
